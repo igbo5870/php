@@ -13,4 +13,9 @@
 
 
 
-$number = [1,2,3,4];
+$number = [1,2,3,4];        // Tableau de nombre 
+echo "<h1>Exercice 2</h1>";
+echo "<p>Nombre d'élément dans le tableau avant = ".count($number)."</p>"; // Compte le nombre d'élément
+array_push($number,10,6);   // Ajoute les valeurs 10 et 6 dans le tableau number
+echo "<p>Nombre d'élément dans le tableau après = ".count($number)."</p>";
+echo "<p>Valeur du deuxième élément du tableau = ".$number[1]."</p>";     // Affiche la valeurs du deuxième element

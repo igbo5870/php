@@ -16,3 +16,9 @@ $insert = ["A","B","C"];
 /**
 * Coder ici
 */
+echo "<p>Avant l'ajout du deuxième tableau : </p>";
+var_dump($number);
+array_splice( $number, 3, 0, $insert ); // Insert le tableau $insert à la 4ème place du tableau $Number
+echo "<p>Après l'ajout du deuxième tableau : </p>";
+var_dump($number);
+ 
